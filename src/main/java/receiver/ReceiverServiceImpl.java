@@ -14,7 +14,7 @@ public class ReceiverServiceImpl {
 
 		if (args.length > 0) {
 			for (String dataInput : args) {
-				String batteryProperties[] = dataInput.split(",");
+				String batteryProperties[] = dataInput.split(" ");
 				if (batteryProperties.length == 3) {
 					temperatureValues.add(Float.valueOf(batteryProperties[1]));
 					socValues.add(Float.valueOf(batteryProperties[2]));
