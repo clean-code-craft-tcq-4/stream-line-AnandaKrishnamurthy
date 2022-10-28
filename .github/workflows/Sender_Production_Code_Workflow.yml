@@ -1,4 +1,4 @@
-name: Sender_Production_Code_Workflow
+name: Build and Run
 
 on: [push, pull_request]
 
@@ -13,10 +13,6 @@ jobs:
     runs-on: windows-latest  # For a list of available runner types, refer to
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
 
-    env:
-      Solution_Name:  Sender_Production_Code.sln
-      Test_Project_Path: .\Sender_Production_Code\Sender_Production_Code.csproj                # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -28,11 +24,13 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
-    - name: Run App
+        
+    # Run the app
+    - name: Run the App
       run: dotnet run -p Sender_Production_Code
-      
+
     - name: Run tests and collect coverage
-      run: dotnet test Sender_Production_Code.sln --collect:"XPlat Code Coverage"
+      run: dotnet test --collect:"XPlat Code Coverage"
 
     - name: Install coverage report generator
       run: dotnet tool install -g dotnet-reportgenerator-globaltool
