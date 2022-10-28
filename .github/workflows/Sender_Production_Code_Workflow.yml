@@ -15,7 +15,7 @@ jobs:
 
     env:
       Solution_Name:  Sender_Production_Code.sln
-      Test_Project_Path:  Sender_Production_Code.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
+      Test_Project_Path: .\Sender_Production_Code\Sender_Production_Code.csproj                # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
 
     steps:
     - name: Checkout
@@ -31,7 +31,7 @@ jobs:
 
      # Run the app
     - name: Run the App
-      run: dotnet run -p Sender_Production_Code\Sender_Production_Code.csproj
+      run: dotnet run .\Sender_Production_Code\Sender_Production_Code.csproj
     - name: Run tests and collect coverage
       run: dotnet test .\Test_Framework.sln --collect:"XPlat Code Coverage"
 
