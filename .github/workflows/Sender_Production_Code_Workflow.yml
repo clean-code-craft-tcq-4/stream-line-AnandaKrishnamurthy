@@ -24,17 +24,16 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
-<<<<<<< HEAD
+
     - name: Run App
       run: dotnet run -p Sender_Production_Code
-      
-=======
-        
+     
+
     # Run the app
     - name: Run the App
       run: dotnet run -p Sender_Production_Code
 
->>>>>>> 818c5a6e2793954e223123c9427d0c4765dfec3d
+
     - name: Run tests and collect coverage
       run: dotnet test --collect:"XPlat Code Coverage"
 
