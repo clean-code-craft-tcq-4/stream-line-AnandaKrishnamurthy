@@ -1,4 +1,4 @@
-name: Stream_Line_Sender_Part
+name: Sender_Part_Test_Code_Workflow
 
 on: [push, pull_request]
 
