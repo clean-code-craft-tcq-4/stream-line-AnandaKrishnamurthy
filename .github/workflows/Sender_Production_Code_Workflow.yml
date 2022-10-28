@@ -29,7 +29,7 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Run App
-      run: dotnet run --project ./Sender_Production_Code/Sender_Production_Code.csproj
+      run: dotnet run --project ./Sender_Production_Code.sln
       
     - name: Run tests and collect coverage
       run: dotnet test Sender_Production_Code.sln --collect:"XPlat Code Coverage"
