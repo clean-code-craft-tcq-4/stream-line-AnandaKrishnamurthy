@@ -29,19 +29,4 @@ jobs:
       run: dotnet run -p Sender_Production_Code
      
 
-    # Run the app
-    - name: Run the App
-      run: dotnet run -p Sender_Production_Code
-
-    - name: Install coverage report generator
-      run: dotnet tool install -g dotnet-reportgenerator-globaltool
-
-    - name: Make coverage report
-      run: reportgenerator "-reports:Sender_Production_Code\TestResults\*\*.xml" "-targetdir:coverage"
     
-    - name: Create coverage artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: coverage
-        path: coverage
-        retention-days: 21
