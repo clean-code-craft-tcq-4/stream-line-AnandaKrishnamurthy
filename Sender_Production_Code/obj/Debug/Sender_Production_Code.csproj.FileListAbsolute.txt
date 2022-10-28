@@ -1,0 +1,6 @@
+C:\Users\act8kor\Desktop\TCQ\Final_Stream_Line\Production_Code_Sender\Sender_Production_Code\Sender_Production_Code\bin\Debug\Sender_Production_Code.exe.config
+C:\Users\act8kor\Desktop\TCQ\Final_Stream_Line\Production_Code_Sender\Sender_Production_Code\Sender_Production_Code\obj\Debug\Sender_Production_Code.csprojResolveAssemblyReference.cache
+C:\Users\act8kor\Desktop\TCQ\Final_Stream_Line\Production_Code_Sender\Sender_Production_Code\Sender_Production_Code\bin\Debug\Sender_Production_Code.exe
+C:\Users\act8kor\Desktop\TCQ\Final_Stream_Line\Production_Code_Sender\Sender_Production_Code\Sender_Production_Code\bin\Debug\Sender_Production_Code.pdb
+C:\Users\act8kor\Desktop\TCQ\Final_Stream_Line\Production_Code_Sender\Sender_Production_Code\Sender_Production_Code\obj\Debug\Sender_Production_Code.exe
+C:\Users\act8kor\Desktop\TCQ\Final_Stream_Line\Production_Code_Sender\Sender_Production_Code\Sender_Production_Code\obj\Debug\Sender_Production_Code.pdb
