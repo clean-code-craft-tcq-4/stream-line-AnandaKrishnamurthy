@@ -1,4 +1,4 @@
-name: Stream_Line_Sender_Part
+name: Sender_Production_Code_Workflow
 
 on: [push, pull_request]
 
