@@ -31,9 +31,9 @@ jobs:
 
      # Run the app
     - name: Run the App
-      run: dotnet run .\Sender_Production_Code.sln
+      run: dotnet run Sender_Production_Code.sln
     - name: Run tests and collect coverage
-      run: dotnet test .\Test_Framework.sln --collect:"XPlat Code Coverage"
+      run: dotnet test Sender_Production_Code.sln --collect:"XPlat Code Coverage"
 
     - name: Install coverage report generator
       run: dotnet tool install -g dotnet-reportgenerator-globaltool
