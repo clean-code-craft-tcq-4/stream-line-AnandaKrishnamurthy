@@ -29,9 +29,6 @@ jobs:
       with:
         dotnet-version: 3.1.101
 
-     # Run the app
-    - name: Run the App
-      run: dotnet run Sender_Production_Code.sln
     - name: Run tests and collect coverage
       run: dotnet test Sender_Production_Code.sln --collect:"XPlat Code Coverage"
 
