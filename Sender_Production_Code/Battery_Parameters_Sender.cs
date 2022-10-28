@@ -36,7 +36,7 @@ namespace Sender_Production_Code
             for (int i = 0; i <= Excell_Data_Retriver.Item1.Count() - 1; i++)
             {
 
-                Console.WriteLine(Excell_Data_Retriver.Item1[i] + " " + Excell_Data_Retriver.Item2[i] + " " + Excell_Data_Retriver.Item3[i]);
+                //Console.WriteLine(Excell_Data_Retriver.Item1[i] + " " + Excell_Data_Retriver.Item2[i] + " " + Excell_Data_Retriver.Item3[i]);
 
             }
 
