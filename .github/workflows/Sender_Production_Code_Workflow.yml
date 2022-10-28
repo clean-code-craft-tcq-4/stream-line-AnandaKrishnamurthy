@@ -31,7 +31,7 @@ jobs:
 
      # Run the app
     - name: Run the App
-      run: dotnet run .\Sender_Production_Code\Sender_Production_Code.csproj
+      run: dotnet run .\Sender_Production_Code.sln
     - name: Run tests and collect coverage
       run: dotnet test .\Test_Framework.sln --collect:"XPlat Code Coverage"
 
