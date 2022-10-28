@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u+WmS3i3q1NzjtfOvLz++CqmYAqH/SznCm9nySRHuF1pO6gXrsy018Ig2gRI0wiPzAq71bJCF3Ueu+5Ci//iYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Sender_Production_Code\\Sender_Production_Code\\Sender_Production_Code\\Sender_Production_Code.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\act8kor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Sender_Production_Code
 {
-    class Battery_Parameters_Sender
+    internal class Battery_Parameters_Sender
     {
         public Tuple<List<string>, List<string>, List<string>> Excell_Data_Retriver(string Path)
         {
@@ -41,6 +41,5 @@ namespace Sender_Production_Code
             }
 
         }
-
     }
 }
