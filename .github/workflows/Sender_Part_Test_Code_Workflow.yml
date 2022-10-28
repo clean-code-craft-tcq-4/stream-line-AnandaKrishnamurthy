@@ -1,4 +1,4 @@
-name: Sender_Part_Test_Code_Workflow
+name: Sender_Part_Test_And_Production_Code_Workflow
 
 on: [push, pull_request]
 
