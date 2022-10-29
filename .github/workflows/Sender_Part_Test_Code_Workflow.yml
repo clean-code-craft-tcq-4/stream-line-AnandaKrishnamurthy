@@ -30,7 +30,7 @@ jobs:
         dotnet-version: 3.1.101
 
     - name: Run App
-      run: dotnet run -p Sender_Production_Code | | mvn compile exec:java -Dexec.mainClass="receiver.ReceiverServiceImpl" 
+      run: dotnet run -p Sender_Production_Code | mvn compile exec:java -Dexec.mainClass="receiver.ReceiverServiceImpl" 
       
     - name: Run tests and collect coverage
       run: dotnet test .\Test_Framework.sln --collect:"XPlat Code Coverage"
